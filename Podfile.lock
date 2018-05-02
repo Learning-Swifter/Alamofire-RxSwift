@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.7.1)
+  - FlexView (0.3.1):
+    - GLEKit
+  - GLEKit (0.2.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - FlexView
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - FlexView
+    - GLEKit
+    - RxCocoa
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  FlexView: 9ff71979b9a596e68b7720bb11d0b833ba7c23fc
+  GLEKit: 0773aed65a4b977dd1a75e95fd8073b1128fc2df
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+
+PODFILE CHECKSUM: f9d63c1606e5d69a8e4926f6995d534e71b280ef
+
+COCOAPODS: 1.5.0
