@@ -43,14 +43,14 @@ class ViewController: UIViewController {
     func list() {
         listView.frame = self.view.frame
         listView.alwaysBounceVertical = true
-        reloadData()
+        self.reloadData()
         self.view.addSubview(listView)
     }
     
     func reloadData() {
         // 清空listView
         listView.subviews.forEach { listView.removeSubview($0) }
-        // 根据数据重新创建UI
+        // 重建listView
         todoList.forEach { todo in
             let label = UILabel()
             label.frame.size = CGSize(width: self.view.frame.width, height: 44)
