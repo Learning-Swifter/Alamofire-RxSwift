@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		102ACF80BB3EB4CFEDFC5759 /* Pods_Alamofire_RxSwiftByTodoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F63C52BFEEFDCC1D120DCB4 /* Pods_Alamofire_RxSwiftByTodoList.framework */; };
+		F021295D209B002400326246 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = F021295C209B002400326246 /* readme.md */; };
 		F0455D1C2099BE6A00D5390D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0455D1B2099BE6A00D5390D /* AppDelegate.swift */; };
 		F0455D1E2099BE6A00D5390D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0455D1D2099BE6A00D5390D /* ViewController.swift */; };
 		F0455D212099BE6A00D5390D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0455D1F2099BE6A00D5390D /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		0F63C52BFEEFDCC1D120DCB4 /* Pods_Alamofire_RxSwiftByTodoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamofire_RxSwiftByTodoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE479AB293478D4B37683B23 /* Pods-Alamofire+RxSwiftByTodoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire+RxSwiftByTodoList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire+RxSwiftByTodoList/Pods-Alamofire+RxSwiftByTodoList.debug.xcconfig"; sourceTree = "<group>"; };
+		F021295C209B002400326246 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		F0455D182099BE6A00D5390D /* Alamofire+RxSwiftByTodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamofire+RxSwiftByTodoList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0455D1B2099BE6A00D5390D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0455D1D2099BE6A00D5390D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		F0455D0F2099BE6A00D5390D = {
 			isa = PBXGroup;
 			children = (
+				F021295C209B002400326246 /* readme.md */,
 				F0455D1A2099BE6A00D5390D /* Alamofire+RxSwiftByTodoList */,
 				F0455D192099BE6A00D5390D /* Products */,
 				30EFE5BF10F17A7234248BF9 /* Pods */,
@@ -156,6 +159,7 @@
 			files = (
 				F0455D262099BE6A00D5390D /* LaunchScreen.storyboard in Resources */,
 				F0455D232099BE6A00D5390D /* Assets.xcassets in Resources */,
+				F021295D209B002400326246 /* readme.md in Resources */,
 				F0455D212099BE6A00D5390D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

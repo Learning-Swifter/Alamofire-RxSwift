@@ -50,7 +50,7 @@ extension Todo {
         return Observable.create {
             observer -> Disposable in
             
-            let request = Alamofire.request(TodoRouter.get(nil))
+            let request = Alamofire.request(route)
                 .responseJSON { response in
                     guard response.result.error == nil else {
                         print(response.result.error!)
