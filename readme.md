@@ -116,7 +116,7 @@ enum TodoRouter: URLRequestConvertible {
         var request = URLRequest(url: url)
         request.httpMethod = method.rawValue
         
-        return try JSONEncoding.default.encode(request, with: params)
+        return try URLEncoding.default.encode(request, with: params)
     }
 }
 ```
